@@ -1,0 +1,133 @@
+/* begin index style */
+
+.body {
+	background-color: rgb(10, 83, 185);	
+}
+.logo_index {
+	position: relative;
+	left: -20px;
+	top: 15px;
+}
+.nav_bar_index {
+	color: white;
+	font-family: Arial; 
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 60px;
+	position: fixed;
+	left: 600px;
+	top: 80px;
+	text-decoration: none;	
+}
+.nav_bar_index > .a_index {
+	color: white;
+	font-family: Arial; 
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 60px;
+	text-decoration: none;	
+}
+.a_index:hover {
+	border-bottom: 4px solid white;
+	position: relative;
+	top: -5px;
+	
+}
+.iqos {
+	position: relative;
+	top: 140px;
+	left: 200px;
+}
+.iqos_text {
+	position: relative;
+	top: 60px;
+	left: 200px;
+}
+
+.copyright {
+	color: white;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	position: fixed;
+	left: 600px;
+	top: 725px;
+	text-transform: uppercase;
+
+}
+.authorazed{
+	color: white;
+	position: fixed;
+	left: 350px;
+	top: 80px; 
+	font-family: Arial;
+	font-size: 16px;
+	font-style: italic;
+	
+}
+.icon {
+	position: fixed;
+	left: 300px;
+	top: 65px;
+}
+* {
+	transition: all .15s ease-in;
+}
+
+/* end index style */
+
+/* begin signin style */
+
+.main_signin {
+	position: relative;
+	margin-left: 550px;
+	margin-top: 160px;
+}
+.reg {
+	border-radius: 5px;
+}
+input {
+	padding: 5px;
+	margin: 15px;
+	border-radius: 5px;
+	font-family: Arial; 
+	font-size: 22px;
+	background-color: rgb(10, 83, 185);
+}
+.submit_signin {
+	color: white;
+	position: relative;
+	left: 125px;
+	padding: 20px 20px;
+	border-radius: 5px;
+    border: 5px solid white;
+    background: none;
+    font-family: Arial; 
+	font-size: 22px;
+	font-weight: bold;
+}
+.submit_signin:hover {
+	color: rgb(10, 83, 185);
+	background-color: white;
+}
+.footer_signin {
+	position: relative;
+	bottom: 77px;
+}
+
+/* end signin style */
+
+/* begin dashboard style */
+
+aside {
+	color: red;
+}
+.data_cell {
+	position: relative;
+	left: 200px;
+	top: 100px;
+}
+
+/* end dashboard style */
